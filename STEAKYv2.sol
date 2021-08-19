@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at BscScan.com on 2021-07-24
+*/
+
 // File @openzeppelin/contracts/token/ERC20/IERC20.sol@v4.0.0
 
 pragma solidity ^0.8.0;
@@ -414,7 +418,7 @@ pragma solidity ^0.8.0;
 
 contract Steaky is ERC20 {
     
-    constructor(uint256 initialSupply) ERC20("FakeToken","TOKEN")
+    constructor(uint256 initialSupply) ERC20("SteakSoft","STEAKY")
     {
         _mint(msg.sender,initialSupply);
     }
